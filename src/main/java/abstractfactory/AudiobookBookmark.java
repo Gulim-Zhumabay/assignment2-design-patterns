@@ -6,6 +6,6 @@ public class AudiobookBookmark implements Bookmark{
     public String mark (int position){
         int minutes = position /60;
         int seconds = position % 60;
-        return "timestamp" + minutes + ":" + String.format("%02d", seconds);
+        return "timestamp " + minutes + ":" + String.format("%02d", seconds);
     }
 }
